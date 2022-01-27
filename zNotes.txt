@@ -1,0 +1,5 @@
+problems found audit warning workaround
+https://github.com/facebook/create-react-app/issues/11174
+
+tailwind docs
+https://tailwindcss.com/docs/guides/create-react-app
