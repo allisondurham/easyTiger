@@ -4,24 +4,20 @@ import image from "../assets/easytiger1.jpg";
 export default function Home() {
 
   return (
-    <div className="home mt-16 bg-yellow-700 ">
-      <div class="container">
-        <div class="py-4">
-          <div class="">
+    <div className="home mt-16 bg-yellow-700 py-16 lg:pt-6 lg:pb-20">
+      <div class="container bg-stone-800 rounded-xl">
             <img
-              class="rounded-xl mb-4 mb-lg-0"
+              class="rounded-xl  mb-lg-0"
               src={image}
               alt=""
             />
-          </div>
-          <div class="">
-            <h1 class="">Home</h1>
-            <p>
-                Easy Tiger is our band, we play music really good!  people like us. one fan at a time!
+            <p className="text-yellow-700 py-4">
+                Easy Tiger is our band, we play music real good!  people like us. one fan at a time!
             </p>
           </div>
-        </div>
-      </div>
+          <div class="">
+
+          </div>
     </div>
   );
 }

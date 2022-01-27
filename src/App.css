@@ -36,14 +36,22 @@
     transform: rotate(360deg);
   }
 } */
+.home {
+  display: inline-block;
+  background-color: red;
+}
+
 .home .container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  display: grid;
+  background-color: red;
+  /* grid-template-columns: 1fr; */
+  /* justify-items: center; */
+  /* align-content: center; */
 
 }
 
 
 
 .home img {
+  text-align: center;
 }

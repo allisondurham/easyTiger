@@ -16,3 +16,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-content: center;
+  /* display: inline-block; */
+  width: 100%;
+  height: 100%
+  /* background-color: rgb(4, 0, 255); */
+}
+
+/* .home .container {
+  background-color: black;
+
+} */
+
+.home p {
+  text-align: center;
+}
+
+.footer a:hover {
+color: #eab308 ;
+}
+.footer .spotify {
+  width: 100%;
+  height: auto;
+}
