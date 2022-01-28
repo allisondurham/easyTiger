@@ -2,13 +2,16 @@ import React from "react";
 // import image from "../assets/easytiger1.jpg";
 // import image from "../assets/tiger.jpg";
 import image from "../assets/easiest.png";
+import bg from "../assets/stripes3.jpg";
 
 export default function Home() {
 
     return (
-        <div className="home mt-24 md:mt-16 mb-0 pb-10 bg-yellow-700 ">
-            <div className="pt-8 px-4 md:p-10 lg:pt-6 pb-20">
-            <div class="container bg-stone-800/90 p-4 rounded-2xl ">
+        <div className="home mt-24 md:mt-16 mb-0 pb-10  relative">
+            <img className="stripe" src={bg} alt="" ></img>
+
+            {/* <div className="pt-8 px-4 md:p-10 lg:pt-6 pb-20 "> */}
+            <div class="container bg-stone-800/90 p-4 z-0 rounded-2xl ">
                 <img
                     class="rounded-2xl "
                         src={image}
@@ -19,7 +22,7 @@ export default function Home() {
                 </p>
             </div>      
             </div>
-        </div>    
+        // </div>    
     );
 }
 
