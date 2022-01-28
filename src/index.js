@@ -12,6 +12,7 @@ import {
   About,
   Contact,
   Music,
+  Tour,
 } from "./components";
 
 
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/music" element={<Music />} />
+      <Route path="/tour" element={<Tour />} />
     </Routes>
     <Footer />
   </Router>,

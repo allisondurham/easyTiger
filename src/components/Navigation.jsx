@@ -24,6 +24,9 @@ export default function Navbar({ fixed }) {
                             <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-yellow-500 hover:text-underline py-2 px-2" href="/music">music</a>
                             </li>
+                            <li className="mr-3">
+                                <a id="nav" className="inline-block text-xl font-semibold  no-underline hover:text-yellow-500 hover:text-underline py-2 px-2" href="/tour">tour</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

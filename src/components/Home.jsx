@@ -1,10 +1,11 @@
 import React from "react";
-import image from "../assets/easytiger1.jpg";
+// import image from "../assets/easytiger1.jpg";
+import image from "../assets/tiger.jpg";
 
 export default function Home() {
 
   return (
-    <div className="home mt-16 bg-yellow-700 py-24 lg:pt-6 lg:pb-20">
+    <div className="home mt-16 bg-yellow-700 py-24 md:p-10 lg:pt-6 lg:pb-20">
       <div class="container bg-stone-800  rounded-xl">
             <img
               class="rounded-xl  mb-lg-0"
