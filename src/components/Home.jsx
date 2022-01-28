@@ -1,6 +1,7 @@
 import React from "react";
 // import image from "../assets/easytiger1.jpg";
-import image from "../assets/tiger.jpg";
+// import image from "../assets/tiger.jpg";
+import image from "../assets/easiest.png";
 
 export default function Home() {
 
@@ -13,7 +14,7 @@ export default function Home() {
                         src={image}
                         alt=""
                     />
-                <p className="text-yellow-700  py-4">
+                <p className="text-stone-400  py-4">
                     Easy Tiger is our band, we play music.  people like us. 
                 </p>
             </div>      

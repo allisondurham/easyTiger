@@ -5,6 +5,8 @@
 
 body {
   margin: 0;
+  font-family: 'Exo 2', sans-serif;
+  letter-spacing: .2rem;
 }
 
 
@@ -19,31 +21,48 @@ body {
   background-attachment: fixed;
   background-size: cover;
   
-
 }
 
-/* .home .container {
-  background-color: black;
 
-} */
 
 .home p {
   text-align: center;
 }
-/* .foot {
-  height: 6%;
-} */
 
-.footer a:hover {
-  color: #eab308 ;
-}
-.footer .spotify {
-  width: 100%;
-  /* height: auto; */
-  /* display: block; */
+
+.back{
+  background-color: #292524 ;
 }
 
+.title {
+  color:#a8a29e ;
+}
+.title:hover {
+  color:#4ade80; 
+  color:#22d3ee ;
+}
+.truffle {
+  color:#4ade80; 
+  color:#06b6d4; 
+  color:#a8a29e ;
+}
+.truffle:hover {
+  color:#06b6d4; 
+  color: #d6d3d1; 
+  color:#4ade80; 
+  
+  /* color:#f59e0b; */
+}
 
+.hoov {
+  color:#4ade80;  
+}
 
+.hoov:hover {
+  color:#a8a29e ;
+  color:#f59e0b;
+  color:#06b6d4; 
+  color: #d6d3d1; 
+}
 
 
