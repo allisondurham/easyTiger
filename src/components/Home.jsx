@@ -7,7 +7,7 @@ import bg from "../assets/stripes3.jpg";
 export default function Home() {
 
     return (
-        <div className="home mt-24 md:mt-16 mb-0 pb-10  relative">
+        <div className="home mt-0   relative">
             <img className="stripe" src={bg} alt="" ></img>
 
             {/* <div className="pt-8 px-4 md:p-10 lg:pt-6 pb-20 "> */}

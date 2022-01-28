@@ -8,7 +8,7 @@ export default function Tour () {
                 <div className=" p-20 flex flex-wrap items-center justify-center">
 
                 <img className="" src={image} alt=""/>
-
+<p className="p-6">coming to a backyard near you</p>
 
 
                 </div>

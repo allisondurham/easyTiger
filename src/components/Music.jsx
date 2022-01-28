@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Music() {
   return (
-    <div className="music">
+    <div className="music mt-24 md:mt-16 py-10">
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">

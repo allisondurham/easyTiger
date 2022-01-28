@@ -45,7 +45,7 @@ body {
   text-shadow: 1px 1px 2px #131110;
   text-align: center;
   min-width: 22rem;
-  filter: drop-shadow(8px 8px 10px rgb(36, 24, 2))  contrast(90%);
+  filter: drop-shadow(8px 8px 10px black)  contrast(90%);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
