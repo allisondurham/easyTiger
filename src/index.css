@@ -36,11 +36,20 @@ code {
 .home p {
   text-align: center;
 }
+/* .foot {
+  height: 6%;
+} */
 
 .footer a:hover {
-color: #eab308 ;
+  color: #eab308 ;
 }
 .footer .spotify {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  /* display: block; */
 }
+
+
+
+
+
