@@ -4,7 +4,7 @@ export default function Navbar({ fixed }) {
     // const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
         <>
-            <nav className=" bg-stone-800 p-2 mt-0 fixed w-full  top-0 z-10">
+            <nav className=" bg-stone-800 p-2 mt-0 fixed w-full  top-0 ">
                 <div className="container  mx-auto flex flex-wrap items-center">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="no-underline hover:text-cyan hover:no-underline" href="/">

@@ -29,7 +29,7 @@ ReactDOM.render(
       <Route path="/tour" element={<Tour />} />
     </Routes>
     <Footer />
-  </Router>,
+  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
