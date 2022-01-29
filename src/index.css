@@ -67,10 +67,10 @@ body {
 .title {
   color:#a8a29e ;
 }
-.title:hover {
+/* .title:hover {
   color:#4ade80; 
   color:#22d3ee ;
-}
+} */
 .truffle {
   color:#06b6d4; 
   color:#a8a29e ;
@@ -96,3 +96,10 @@ body {
 }
 
 
+.home button {
+  letter-spacing: .2rem;
+}
+
+.slider {
+  z-index: -1;
+}
