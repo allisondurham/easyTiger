@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about mt-24 md:mt-16 py-10">
       <div class="container">
-        <div class="row align-items-center my-5">
+        <div class="row align-items-center ml-4 md:ml-10 my-5">
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
