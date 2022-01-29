@@ -12,8 +12,8 @@ function Contact() {
               alt=""
             />
           </div>
-          <div class="col-lg-5">
-            <h1 class="font-weight-light">Contact</h1>
+          <div class="ml-4 md:ml-10 col-lg-5">
+            <h1 class="font-weight-light py-2">Contact</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
