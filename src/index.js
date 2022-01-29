@@ -13,6 +13,7 @@ import {
   Contact,
   Music,
   Tour,
+  Allison,
 } from "./components";
 
 
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/music" element={<Music />} />
       <Route path="/tour" element={<Tour />} />
+      <Route path="/allison" element={<Allison />} />
     </Routes>
     <Footer />
   </Router>
