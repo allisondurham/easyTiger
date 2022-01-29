@@ -7,7 +7,7 @@ export default function Navbar({ fixed }) {
 
     return (
         <>
-            <nav className=" bg-stone-800 p-2 mt-0 absolute  w-full z-40 top-0 ">
+            <nav className=" bg-stone-800 p-2 mt-0 fixed  w-full z-40 top-0 ">
                 <div className="container  mx-auto flex flex-wrap items-center">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="no-underline hover:text-cyan hover:no-underline" href="/">
@@ -27,9 +27,9 @@ export default function Navbar({ fixed }) {
                             <li className="mr-3">
                                 <a id="nav" className="inline-block text-xl font-semibold hoov   py-2 px-2" href="/music">music</a>
                             </li>
-                            <li className="mr-6">
+                            {/* <li className="mr-6">
                                 <a id="nav" className="inline-block text-xl font-semibold  hoov   py-2 px-2" href="/tour">tour</a>
-                            </li>
+                            </li> */}
                             <li className=" relative py-2 px-2">
                           <Menu />
 

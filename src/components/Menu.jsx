@@ -87,7 +87,7 @@ export default function Menu() {
                         <p id="side" className="hover:text-amber-600  mb-2 md:mb-4">
                             <a href="/Merch" className="">heather</a>
                         </p>
-                        <p id="side" className="hover:text-amber-600   mb-2 md:mb-4">
+                        <p id="side" className="hover:text-amber-600   mb-6 md:mb-10">
                             <a href="/Contact" className="">anthony</a>
                         </p>
 
