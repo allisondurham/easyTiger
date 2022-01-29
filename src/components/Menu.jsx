@@ -32,7 +32,7 @@ export default function Menu() {
                 </button>
                 )
             }
-            <div className={`menu-bar top-24 md:top-1 mt-3 md:mt-16 bottom-12  text-stone-800 right-0 shadow-xl z-10  fixed overflow-scroll bg-gradient-to-br from-stone-400 to-green-400/95 w-[50vw] md:w-[35vw] p-3
+            <div className={`menu-bar top-3 md:top-1 mt-24 md:mt-16 bottom-12  text-stone-800 right-0 shadow-xl z-10  fixed overflow-scroll bg-gradient-to-br from-stone-400 to-green-400/95 w-[50vw] md:w-[35vw] p-3
                 ${isOpen ? 'translate-x-0':'translate-x-full'}
                 ease-in-out top-0 z-10 duration-300`}>
                 <h2 className="text-2xl  pt-2 pl-5 font-extrabold">menu</h2>
