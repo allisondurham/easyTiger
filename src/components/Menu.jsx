@@ -76,19 +76,19 @@ export default function Menu() {
                             <a href="/" className="">home</a>
                         </p> */}
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/tour" className="">elaine</a>
+                            <a href="/elaine" className="">elaine</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/tour" className="">michael</a>
+                            <a href="/michael" className="">michael</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
                             <a href="/allison" className="">allison</a>
                         </p>
                         <p id="side" className="hover:text-amber-600  mb-2 md:mb-4">
-                            <a href="/tour" className="">heather</a>
+                            <a href="/heather" className="">heather</a>
                         </p>
                         <p id="side" className="hover:text-amber-600   mb-6 md:mb-10">
-                            <a href="/tour" className="">anthony</a>
+                            <a href="/anthony" className="">anthony</a>
                         </p>
 
                         {/* <p id="side" className="hover:text-amber-600 mb-4 ">

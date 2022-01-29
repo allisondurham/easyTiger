@@ -2,7 +2,8 @@ import React from "react";
 // import image from "../assets/easytiger1.jpg";
 // import image from "../assets/tiger.jpg";
 import image from "../assets/easiest.png";
-import bg from "../assets/stripes3.jpg";
+// import bg from "../assets/stripes3.jpg";
+import bg from "../assets/stripes.png";
 
 export default function Home() {
 

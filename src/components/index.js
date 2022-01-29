@@ -7,3 +7,7 @@ export { default as Music } from "./Music";
 export { default as Tour } from "./Tour";
 export { default as Menu } from "./Menu";
 export { default as Allison } from "./members/Allison";
+export { default as Heather } from "./members/Heather";
+export { default as Michael } from "./members/Michael";
+export { default as Elaine } from "./members/Elaine";
+export { default as Anthony } from "./members/Anthony";
