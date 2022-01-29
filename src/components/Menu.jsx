@@ -44,19 +44,19 @@ export default function Menu() {
                             <a href="/" className="">home</a>
                         </p> */}
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/About" className="">about</a>
+                            <a href="/about" className="">about</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/Music" className="">music</a>
+                            <a href="/music" className="">music</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/Tour" className="">tour</a>
+                            <a href="/tour" className="">tour</a>
                         </p>
                         <p id="side" className="hover:text-amber-600  mb-2 md:mb-4">
-                            <a href="/Merch" className="">merch - lol</a>
+                            <a href="/merch" className="">merch - lol</a>
                         </p>
                         <p id="side" className="hover:text-amber-600   mb-2 md:mb-4">
-                            <a href="/Contact" className="">contact</a>
+                            <a href="/contact" className="">contact</a>
                         </p>
 
                         {/* <p id="side" className="hover:text-amber-600 mb-2 md:mb-4 ">
@@ -76,19 +76,19 @@ export default function Menu() {
                             <a href="/" className="">home</a>
                         </p> */}
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/Tour" className="">elaine</a>
+                            <a href="/tour" className="">elaine</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/Tour" className="">michael</a>
+                            <a href="/tour" className="">michael</a>
                         </p>
                         <p id="side" className="hover:text-amber-600 mb-2 md:mb-4">
-                            <a href="/Tour" className="">allison</a>
+                            <a href="/allison" className="">allison</a>
                         </p>
                         <p id="side" className="hover:text-amber-600  mb-2 md:mb-4">
-                            <a href="/Tour" className="">heather</a>
+                            <a href="/tour" className="">heather</a>
                         </p>
                         <p id="side" className="hover:text-amber-600   mb-6 md:mb-10">
-                            <a href="/Tour" className="">anthony</a>
+                            <a href="/tour" className="">anthony</a>
                         </p>
 
                         {/* <p id="side" className="hover:text-amber-600 mb-4 ">
