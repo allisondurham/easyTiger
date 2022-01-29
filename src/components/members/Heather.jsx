@@ -6,11 +6,12 @@ import image from "../../assets/heather.jpg";
 export default function Heather() {
   return (
     <div className="music tiger  py-10">
-      <div class="container justify-center px-4 flex m-0">
-        <div class="row align-items-center w-full md:w-[70%]  my-5">
+      <div class="container justify-center px-4  flex m-0">
+          
+        <div class="row align-items-center bg-stone-500/90 p-2 rounded-xl w-full md:w-[70%]  my-5">
           <div class="col-lg-7">
             <img
-              class="img-fluid rounded-xl mb-4 mb-lg-0"
+              class="img-fluid rounded-xl mb-2 w-full mb-lg-0"
               src={image}
               alt=""
             />
