@@ -25,9 +25,6 @@ export default function Heather() {
               type and scrambled it to make a type specimen book.
             </p> 
            </div>
-
-          {/* <iframe title="Easy Tiger" className="rounded-xl" src="https://open.spotify.com/embed/artist/0QS8HiZaDpyGLTZUyHZ9SQ" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> */}
-
         </div>
       </div>
     </div>
