@@ -1,9 +1,11 @@
 import React from "react";
 // import image from "../assets/easytiger1.jpg";
 // import image from "../assets/tiger.jpg";
-import image from "../assets/easiest.png";
+// import image from "../assets/easiest.png";
+import image from "../assets/eeeasytiger.png";
 // import bg from "../assets/stripes3.jpg";
-import bg from "../assets/stripes.png";
+// import bg from "../assets/stripes.png";
+import bg from "../assets/stage.jpg";
 
 export default function Home() {
 
@@ -12,7 +14,7 @@ export default function Home() {
             <img className="stripe" src={bg} alt="" ></img>
 
             {/* <div className="pt-8 px-4 md:p-10 lg:pt-6 pb-20 "> */}
-            <div class="container bg-stone-800/90 p-4 z-0 rounded-2xl ">
+            <div class="container  bg-stone-800/90 p-4 z-0 rounded-2xl ">
                 <img
                     class="rounded-2xl "
                         src={image}

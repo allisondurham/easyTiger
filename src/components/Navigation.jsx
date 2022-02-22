@@ -11,7 +11,7 @@ export default function Navbar({ fixed }) {
                 <div className="container  mx-auto flex flex-wrap items-center">
                     <div className="flex w-full md:w-1/2 justify-center md:justify-start font-extrabold">
                         <a className="no-underline hover:text-cyan hover:no-underline" href="/">
-                            <span className="text-4xl title hover:text-amber-600 pl-2 " id="">
+                            <span className="text-4xl title hover:text-cyan-400 pl-2 " id="">
                                 <i  className="em  em-grinning"></i> Easy Tiger
                             </span>
                         </a>
