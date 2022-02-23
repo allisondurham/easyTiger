@@ -32,7 +32,7 @@ export default function Menu() {
                 </button>
                 )
             }
-            <div className={`menu-bar top-3 md:top-1 mt-24 md:mt-16 bottom-[2.92rem]  text-stone-800 right-0 shadow-xl z-10  fixed overflow-scroll bg-gradient-to-br from-stone-400/50 to-green-400/40 w-[40vw] md:w-[25vw] p-3 xl:px-10 xl:py-10
+            <div className={`menu-bar top-3 md:top-1 mt-24 md:mt-16 bottom-[2.92rem]  text-stone-800 right-0 shadow-xl z-10  fixed overflow-scroll bg-gradient-to-br from-stone-400/50 to-green-400/40 w-[50vw] md:w-[25vw] p-3 xl:px-10 xl:py-10
                 ${isOpen ? 'translate-x-0':'translate-x-full'}
                 ease-in-out  z-10 duration-300`}>
                 <h2 id="title" className="text-2xl  pt-2 pl-5 font-extrabold">explore</h2>
@@ -53,7 +53,7 @@ export default function Menu() {
                             <a href="/tour" className="">tour</a>
                         </p>
                         <p id="side" className="hover:text-amber-600  mb-2 md:mb-4">
-                            <a href="/merch" className="">merch - lol</a>
+                            <a href="/merch" className="">merch</a>
                         </p>
                         <p id="side" className="hover:text-amber-600   mb-2 md:mb-4">
                             <a href="/contact" className="">contact</a>
