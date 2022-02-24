@@ -118,6 +118,8 @@ body {
   color: #fda4af ;
   color:#fb7185 ; 
   color: #f87171 ;
+  color: #06b6d4;
+  color: #ffdab9;
 }
 
 .menu-bar {
@@ -125,6 +127,10 @@ body {
   background-size: cover;
   /* filter: blur(3px); */
   /* box-shadow: -10px 0px 50px black; */
+  border-left-style: inset;
+  border-left-width: 5px;
+  border-left-color:  #78716c  ; 
+  ;
 }
 
 .hamburger {

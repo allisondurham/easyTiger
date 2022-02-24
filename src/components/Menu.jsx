@@ -14,7 +14,7 @@ export default function Menu() {
                         fill="#06b6d4"
                         viewBox="0 0 100 80"
                         width="26"
-                        className="hover:fill-red-400"
+                        className="hover:fill-[#ffdab9]"
                         >
                         <rect width="100" height="10"></rect>
                         <rect y="30" width="100" height="10"></rect>
@@ -25,7 +25,7 @@ export default function Menu() {
                 <button className="text-xl  text-cyan-400   z-50"
                 onClick={() => setIsOpen(!isOpen)}
                 >
-<svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-chevron-double-right text-red-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-chevron-double-right text-[#ffdab9]" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
 </svg>
@@ -35,6 +35,7 @@ export default function Menu() {
             <div className={`menu-bar top-3 md:top-1 mt-24 md:mt-16 bottom-[2.92rem]  text-stone-800 right-0 shadow-xl z-10  fixed overflow-scroll bg-gradient-to-br from-stone-400/50 to-green-400/40 w-[50vw] md:w-[25vw] p-3 xl:px-10 xl:py-10
                 ${isOpen ? 'translate-x-0':'translate-x-full'}
                 ease-in-out  z-10 duration-300`}>
+                    
                 <h2 id="title" className="text-2xl  pt-2 pl-5 font-extrabold">explore</h2>
 
                 <div className="col-span-1 ">

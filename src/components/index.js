@@ -5,6 +5,7 @@ export { default as About } from "./About";
 export { default as Contact } from "./Contact";
 export { default as Music } from "./Music";
 export { default as Tour } from "./Tour";
+export { default as Merch } from "./Merch";
 export { default as Menu } from "./Menu";
 export { default as Allison } from "./members/Allison";
 export { default as Heather } from "./members/Heather";

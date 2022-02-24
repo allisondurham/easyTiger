@@ -13,6 +13,7 @@ import {
   Contact,
   Music,
   Tour,
+  Merch,
   Allison,
   Heather,
   Elaine,
@@ -32,6 +33,7 @@ ReactDOM.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/music" element={<Music />} />
       <Route path="/tour" element={<Tour />} />
+      <Route path="/merch" element={<Merch />} />
       <Route path="/allison" element={<Allison />} />
       <Route path="/heather" element={<Heather />} />
       <Route path="/michael" element={<Michael />} />

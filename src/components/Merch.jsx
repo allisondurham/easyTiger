@@ -1,7 +1,7 @@
 import React from "react";
-import image from "../assets/easytiger1.jpg";
+import image from "../assets/easiest.png";
 
-function About() {
+function Merch() {
   return (
     <div className="about home tiger px-4 mt-24 md:mt-16 py-10">
       <div class="container bg-stone-800/80 my-10 rounded-xl px-4">
@@ -14,12 +14,9 @@ function About() {
             />
           </div>
           <div class="p-4 md:ml-10 col-lg-5 text-stone-400 ">
-            <h1 class="py-2 font-weight-light">About</h1>
+            <h1 class="py-2 font-weight-light">Merch</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              lol, so... we don't have any merch yet.
             </p>
           </div>
         </div>
@@ -28,4 +25,4 @@ function About() {
   );
 }
 
-export default About;
+export default Merch;

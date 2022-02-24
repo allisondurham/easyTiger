@@ -13,7 +13,6 @@ export default function Home() {
         <div className="home mt-0   relative">
             <img className="stripe" src={bg} alt="" ></img>
 
-            {/* <div className="pt-8 px-4 md:p-10 lg:pt-6 pb-20 "> */}
             <div class="container  bg-stone-800/90 p-4 z-0 rounded-2xl ">
                 <img
                     class="rounded-2xl "
@@ -24,8 +23,7 @@ export default function Home() {
                     Easy Tiger is our band, we play music.  people like us. 
                 </p>
             </div>      
-            </div>
-        // </div>    
+            </div>  
     );
 }
 

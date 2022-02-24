@@ -3,7 +3,7 @@ import image from "../assets/easytiger1.jpg";
 
 export default function Tour () {
     return (
-        <div className="simple">
+        <div className="simple tiger ">
             <div className="container w-full mx-auto mt-16">
                 <div className=" p-20 flex flex-wrap items-center justify-center">
 
