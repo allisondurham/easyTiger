@@ -14,7 +14,7 @@ export default function Menu() {
                         fill="#06b6d4"
                         viewBox="0 0 100 80"
                         width="26"
-                        className="hover:fill-[#ffdab9]"
+                        className="hover:fill-[#d6d3d1]"
                         >
                         <rect width="100" height="10"></rect>
                         <rect y="30" width="100" height="10"></rect>
@@ -25,7 +25,7 @@ export default function Menu() {
                 <button className="text-xl  text-cyan-400   z-50"
                 onClick={() => setIsOpen(!isOpen)}
                 >
-<svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-chevron-double-right text-[#ffdab9]" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+<svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-chevron-double-right text-[#d6d3d1]" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
   <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
 </svg>

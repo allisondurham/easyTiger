@@ -1,32 +1,36 @@
 
 import React from "react";
-
+import bg from "../../assets/stage.jpg";
 import image from "../../assets/elaine.jpg";
 
 export default function Elaine() {
   return (
-    <div className="music tiger  py-10">
-      <div class="container justify-center px-4  flex m-0">
-          
-        <div class="row align-items-center  p-2 rounded-xl w-full md:w-[70%]  my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded-xl mb-2 w-full mb-lg-0"
-              src={image}
-              alt=""
+
+
+    <div className="home mt-0   relative">
+    <img className="stripe" src={bg} alt="" ></img>
+
+    <div class="container mt-10 bg-stone-800/80 p-4 z-0 rounded-2xl ">
+        <img
+            class="rounded-xl  sepia contrast-125"
+                src={image}
+                alt=""
             />
-          </div>
-          <div class="p-4 md:px-10 col-lg-5 bg-stone-800 text-stone-400 rounded-xl">
-            <h1 class="font-weight-light  py-2">Elaine</h1>
-            <p className="pb-2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p> 
+          <div class="  py-4 px-2 text-stone-400 ">
+            <h1 class="py-2 text-left font-weight-light">Elaine - Lead Singer & Trusted Songwriter </h1>
+             <p class=" pt-2 text-left font-weight-light">
+               Elaine writes songs.  She writes other things too.  She's a writer, and she's our writer.
+             </p>
+             <p className="pt-2 text-left font-weight-light">
+               Hailing from the mountains, i think she fell in love with folk, maybe americana, some appalachia vibes. 
+               </p>
+             <p className="pt-2 text-left font-weight-light">
+               Her dog Okra is our grumbliest fan.
+               </p>
            </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+    </div>      
+    </div>  
+);
+  }
+
+

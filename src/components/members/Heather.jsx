@@ -1,32 +1,34 @@
 
 import React from "react";
-
+import bg from "../../assets/stage.jpg";
 import image from "../../assets/heather.jpg";
 
 export default function Heather() {
   return (
-    <div className="music tiger  py-10">
-      <div class="container justify-center px-4  flex m-0">
-          
-        <div class="row align-items-center bg-stone-500/90 p-2 rounded-xl w-full md:w-[70%]  my-5">
-          <div class="col-lg-7">
-            <img
-              class="img-fluid rounded-xl mb-2 w-full mb-lg-0"
-              src={image}
-              alt=""
+
+    <div className="home mt-0   relative">
+    <img className="stripe" src={bg} alt="" ></img>
+
+    <div class="container mt-10 bg-stone-800/80 p-4 z-0 rounded-2xl ">
+        <img
+            class="rounded-xl  sepia contrast-125"
+                src={image}
+                alt=""
             />
-          </div>
-          <div class="p-4 md:px-10 col-lg-5 bg-stone-800 text-stone-400 rounded-xl">
-            <h1 class="font-weight-light  py-2">Heather</h1>
-            <p className="pb-2">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p> 
+          <div class="  py-4 px-2 text-stone-400 ">
+            <h1 class="py-2 text-left font-weight-light">Heather - Charm & Vocals </h1>
+             <p class=" pt-2 text-left font-weight-light">
+               She's a badass who takes no shit from no one. She spent a lot of time in New Orleans and her musical stylings are super fly.
+             </p>
+             <p className="pt-2 text-left font-weight-light">
+               Heather likes country music.  Not that new stuff, but the real, old, good stuff.  Cowboy butts drive her nuts.  
+               </p>
+             <p className="pt-2 text-left font-weight-light">
+               Less Honkin', More Tonkin'.
+               </p>
            </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+    </div>      
+    </div>  
+);
+  }
+

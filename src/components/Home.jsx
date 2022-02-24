@@ -19,7 +19,7 @@ export default function Home() {
                         src={image}
                         alt=""
                     />
-                <p className="text-stone-400  py-4">
+                <p className="slogan text-stone-400  py-4">
                     Easy Tiger is our band, we play music.  people like us. 
                 </p>
             </div>      
