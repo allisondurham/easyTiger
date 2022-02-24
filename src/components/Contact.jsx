@@ -23,7 +23,7 @@ export default function Contact() {
                <p class=" pt-2 text-left font-weight-light">
                 The best way to get ahold of us is to come to our shows and talk to us there. 
                 The second best way is to email Elaine at  &nbsp;
-                <a href="mailto:r.elaine.atwell@gmail.com " className="truffle mail   mr-20 lg:mr-6"> r.elaine.atwell@gmail.com  </a>
+                <a href="mailto:r.elaine.atwell@gmail.com" className="truffle mail   mr-20 lg:mr-6"> r.elaine.atwell@gmail.com  </a>
                </p>
              </div>
       </div>      

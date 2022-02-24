@@ -25,12 +25,12 @@ export default function Navbar({ fixed }) {
                                 <a id="nav" className="inline-block text-xl font-semibold hoov   py-2 px-2" href="/about">about</a>
                             </li> */}
                             <li className="mr-3">
-                                <a id="nav" className="inline-block text-xl font-semibold hoov   py-2 px-2" href="/music">music</a>
+                                <a id="nav" className="inline-block text-xl font-semibold hoov   py-2 px-4" href="/music">music</a>
                             </li>
                             {/* <li className="mr-6">
                                 <a id="nav" className="inline-block text-xl font-semibold  hoov   py-2 px-2" href="/tour">tour</a>
                             </li> */}
-                            <li className=" relative py-2 px-2">
+                            <li className=" relative py-2 px-4">
                           <Menu />
 
                             </li>
