@@ -21,7 +21,7 @@ export default function Allison() {
             When she's not out kicking cans, she spends most of her time trying to get a software engineering job and looking after her dog.
           </p>
           <p className="pt-2 text-left font-weight-light">
-            Has been playing music all her life, and in the orchestra playing violin and viola.  Fairly badass.
+            Played in the orchestra in middle school. Good at climbing on things. Enjoys the outdoors.  Fairly badass.
           </p>
         </div>
       </div>      
