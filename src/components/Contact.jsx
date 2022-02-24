@@ -1,6 +1,6 @@
 import React from "react";
 import bg from "../assets/stage.jpg";
-import image from "../assets/elaine.jpg";
+import image from "../assets/contact.jpg";
 
 export default function Contact() {
   return (
@@ -9,7 +9,7 @@ export default function Contact() {
       <img className="stripe" src={bg} alt="" ></img>
       <div class="container  bg-stone-800/80 p-4 z-0 rounded-2xl ">
         <img
-          class="rounded-xl  sepia contrast-125"
+          class="rounded-xl  saturate-100"
           src={image}
           alt=""
         />
