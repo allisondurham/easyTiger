@@ -16,14 +16,14 @@ export default function Home() {
             <div class="container  bg-stone-800/90 p-4 z-0 rounded-2xl ">
                 <img
                     class="rounded-2xl "
-                        src={image}
-                        alt=""
-                    />
+                    src={image}
+                    alt=""
+                />
                 <p className="slogan text-stone-400  py-4">
                     Easy Tiger is our band, we play music.  people like us. 
                 </p>
             </div>      
-            </div>  
+        </div>  
     );
 }
 
